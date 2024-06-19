@@ -1,0 +1,16 @@
+*.d
+*.slo
+*.lo
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.exe
+*.out
+*.app
+cmake-build-*/
+**/.idea/
