@@ -12,3 +12,5 @@ For example:
 
 This will pass arguments to the BOF's "go" function in the order you typed it. Notice how the last int has a '-' character
 after the 'i'. This will pass the integer as a negative number to the BOF (although there's very little reason to do this).
+
+![fdsf1231ss](https://github.com/Uri3n/bof-exec/assets/153572153/2f446ead-4dec-4519-b385-a0e7f3bb495c)
