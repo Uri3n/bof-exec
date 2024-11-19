@@ -6,14 +6,13 @@
 #include <optional>
 #include <iostream>
 
-bool pack_arguments(std::string unpacked,   std::vector<char>& packed);
-std::optional<std::vector<char>>            read_from_disk(const std::string& file_name);
+bool pack_arguments(std::string unpacked, std::vector<char>& packed);
+std::optional<std::vector<char>> read_from_disk(const std::string& file_name);
 
 template<typename T>
 class defer_wrapper {
     T callable;
 public:
-
     auto call() -> decltype(callable()) {
         return callable();
     }

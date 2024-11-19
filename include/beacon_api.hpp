@@ -3,12 +3,10 @@
 #include <Windows.h>
 #include <string>
 
-
 #define CALLBACK_OUTPUT      0x0
 #define CALLBACK_OUTPUT_OEM  0x1e
 #define CALLBACK_OUTPUT_UTF8 0x20
 #define CALLBACK_ERROR       0x0d
-
 
 /* Structs */
 typedef struct {
@@ -25,7 +23,6 @@ typedef struct {
     int   size;     /* total size of this buffer */
 } formatp;
 
-
 /* Beacon Data */
 void    BeaconDataParse(datap* parser, char* buffer, int size);
 int     BeaconDataInt(datap* parser);
@@ -41,7 +38,6 @@ void    BeaconFormatPrintf(formatp* format, char* fmt, ...);
 char*   BeaconFormatToString(formatp* format, int* size);
 void    BeaconFormatFree(formatp* format);
 void    BeaconFormatInt(formatp* format, int value);
-
 
 /* Output */
 void BeaconOutput(int type, char* data, int len);
@@ -70,6 +66,5 @@ void clear_curr_token();
 void set_curr_token(HANDLE token);
 uint32_t swap_endianess(uint32_t indata);
 size_t char_to_wide_impl(wchar_t* dest, char* src, size_t max_allowed);
-
 
 #endif //BEACON_API_HPP
