@@ -380,7 +380,7 @@ int main(int argc, char** argv)
 )" << std::endl;
 
     if (argc < 2) {
-        std::cout << R"(  Usage: [INPUT FILE] [ARGUMENTS (optional)])" << std::endl;
+        std::cout << R"(  Useage: [INPUT FILE] [ARGUMENTS (optional)])" << std::endl;
         std::cout << R"(  Examples: BOF-exec bof.o "string argument, i32, i200")" << std::endl;
         std::cout << R"(            BOF-exec bof.obj "i16, s-50, s121")" << std::endl;
         std::cout << R"(            BOF-exec bof.o)" << std::endl
