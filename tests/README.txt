@@ -4,11 +4,11 @@ argtest.o:     test passing arguments
 whoami.x64.o:  prints whoami /all info
 dir.x64.o:     lists directory entries and subdirectories (optional)
 
-argtest.o USAGE:
+argtest.o USEAGE:
     [string] [int] [short] [string]
 
-whoami.x64.o USAGE:
+whoami.x64.o USEAGE:
     [no arguments]
 
-dir.x64.o USAGE:
+dir.x64.o USEAGE:
     [directory (string)] [subdirectory (short)]
